@@ -1,0 +1,16 @@
+
+
+ul{
+    display: flex;
+    gap: 20px;
+}
+
+ul li{
+    list-style-type: none;
+    font-weight: 700;
+    color: #fff;
+}
+
+ul li:hover{
+    color: #96EB64;
+}
