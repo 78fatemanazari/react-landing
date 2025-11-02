@@ -1,0 +1,19 @@
+.navbar-container{
+width: 60%;
+}
+
+ul{
+
+    display: flex;
+    gap: 40px;
+}
+
+ul li{
+    list-style-type: none;
+    font-weight: 700;
+    color: #fff;
+}
+
+ul li:hover{
+    color: #96EB64;
+}
