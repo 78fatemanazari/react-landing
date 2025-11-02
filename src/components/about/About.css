@@ -1,0 +1,42 @@
+.about-section-container{
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+.left-section{
+    width: 50%;
+    background-color: lightyellow;
+}
+
+.left-section span{
+    font-size: 25px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.left-section p{
+    font-size: 2rem;
+}
+
+.left-section img{
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.center-section{
+    width: 25%;
+    background-color: lightblue;
+}
+
+.right-section{
+    width: 25%;
+    background-color: lightpink;
+}
+
+
+
