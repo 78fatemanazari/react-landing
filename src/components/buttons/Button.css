@@ -1,0 +1,16 @@
+.button{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button button{
+    all: unset;
+    color: #fff;
+    background-color: #96eb64;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
