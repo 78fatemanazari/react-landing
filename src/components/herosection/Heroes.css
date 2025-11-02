@@ -54,7 +54,7 @@
 }
 
 .herocontent p{
-    font-style: 20px;
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 3.2px;
     color: #96eb64;
@@ -62,12 +62,12 @@
 }
 
 .herocontent h1{
-    font-size: 3.5rem;
+    font-size: 4rem;
     margin-bottom: 10px;
 }
 
 .herocontent h2{
-    font-size: 3.5rem;
+    font-size: 5rem;
     color: #96eb64;
     margin-bottom: 40px;
 }
@@ -76,9 +76,9 @@
     all: unset;
     color: #000;
     background-color: #FFF;
-    padding: 15px;
+    padding: 15px 20px;
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 700;
     letter-spacing: 3.2px;
     text-transform: uppercase;

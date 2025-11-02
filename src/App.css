@@ -1,7 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('./assets/fonts/Vazir.woff2') format('woff2'), url('./assets/fonts/Vazir.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 body{
+<<<<<<< HEAD
     font-family:"Plus Jakarta Sans", sans-serif;
+=======
+    font-family:'Vazir', sans-serif;
+    background-color: lightgrey;
+>>>>>>> feature/hero-section
     margin: 0;
     padding: 0;
 }
