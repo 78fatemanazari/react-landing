@@ -1,6 +1,7 @@
 import './Header.css'
 import { Navbar } from "../navbar/Navbar"
 import logo from '../../assets/images/logo.png'
+import { Button } from '../buttons/Button'
 
 export const Header = () =>{
     return(
@@ -8,10 +9,10 @@ export const Header = () =>{
         <header>
             <div className="logo-container">
                 <img src={logo} alt="" />
-                <span>WEBNOVA</span>        
+                <span>وب نوا</span>        
             </div>
             <Navbar />
-            <button>FREE QUOTE</button>
+            <Button />
         </header>
         </>
     )

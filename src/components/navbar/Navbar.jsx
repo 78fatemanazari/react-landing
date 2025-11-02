@@ -3,13 +3,15 @@ import './Navbar.css'
 export const Navbar = () => {
   return (
     <>
-      <ul>
-        <li>HOME</li>
-        <li>ABOUT</li>
-        <li>SERVICES</li>
-        <li>PORTFOLIO</li>
-        <li>CONTACT</li>
+      <div className="navbar-container">
+        <ul>
+        <li>خانه</li>
+        <li>در باره ی ما</li>
+        <li>خدمات</li>
+        <li>پورتفولیو</li>
+        <li>تماس با ما</li>
       </ul>
+      </div>
     </>
   );
 };
