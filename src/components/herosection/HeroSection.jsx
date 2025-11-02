@@ -5,10 +5,10 @@ export const HeroSection = () => {
     <>
       <div className="herosection">
         <div className="herocontent">
-          <p>Your Digital Edge</p>
-          <h1>Maximize visibility with</h1>
-          <h2>digital marketing</h2>
-          <button>Get Started</button>
+          <p>برتری دیجیتال شما</p>
+          <h1>بیشترین میزان دیده‌شدن با</h1>
+          <h2>بازاریابی دیجیتال</h2>
+          <button>شروع کنید</button>
         </div>
       </div>
     </>
