@@ -1,0 +1,46 @@
+.carousel {
+  display: flex;
+  overflow: hidden; 
+  white-space: nowrap;
+  width: 90%;
+  margin: 20px auto;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding: 20px;
+}
+
+
+.carousel::-webkit-scrollbar{
+    display: none;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  animation: spin 10s linear infinite;
+  flex-shrink: 0;
+}
+
+
+.card {
+  padding: 1em 2em;
+  font-size: 2rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+
+@keyframes spin {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+
+.carousel:hover .group {
+  animation-play-state: paused;
+}
