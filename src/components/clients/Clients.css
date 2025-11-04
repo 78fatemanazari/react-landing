@@ -1,0 +1,25 @@
+.clients-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 20px;
+  overflow-x: hidden;
+  transform: translateX(-100%);
+  animation: slideIn 1s forwards; 
+}
+
+@keyframes slideIn {
+  to {
+    transform: translateX(0); 
+  }
+}
+
+.clients-container img{
+  width: 50%;
+  border-bottom: 1px solid rgba(18, 6, 6, 0.081);
+  border-right: 1px solid rgba(18, 6, 6, 0.081);
+  padding: 40px;
+  overflow: hidden;
+}

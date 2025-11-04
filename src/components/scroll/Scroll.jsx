@@ -1,26 +1,34 @@
-import './Scroll.css'
+import "./Scroll.css";
 
-export const Scroll = () =>{
+export const Scroll = () => {
 
-   
-    return(
-        <>
-            <div className="carousel">
-                <div className="group">
-                    <div className="card">بهینه‌سازی کلمات کلیدی</div>
-                    <div className="card">لینک‌سازی</div>
-                    <div className="card">سئوی درون‌صفحه‌ای</div>
-                    <div className="card">تولید محتوا</div>
-                    <div className="card">پژوهش و استراتژی</div>
-                </div>
-                <div aria-hidden className="group">
-                    <div className="card">بهینه‌سازی کلمات کلیدی</div>
-                    <div className="card">لینک‌سازی</div>
-                    <div className="card">سئوی درون‌صفحه‌ای</div>
-                    <div className="card">تولید محتوا</div>
-                    <div className="card">پژوهش و استراتژی</div>
-                </div>
-            </div>
-        </>
-    )
-}
+  const contents = [
+     "بهینه‌سازی کلمات کلیدی",
+     "لینک‌سازی" ,
+    "سئوی درون‌صفحه‌ای" ,
+    "تولید محتوا" ,
+    "پژوهش و استراتژی" 
+  ];
+
+  const images = [
+    '/'
+  ]
+
+  return (
+    <>
+      <div className="carousel">
+        <div className="group">
+          {contents.map((content, index) => (
+            <div key={index} className="card">{content}</div>
+          ))}
+        </div>
+        <div aria-hidden="true" className="group">
+            {contents.map((content, index) => (
+            <div key={`clone-${index}`} className="card">{content}</div>
+          ))}
+        </div>
+       
+      </div>
+    </>
+  );
+};

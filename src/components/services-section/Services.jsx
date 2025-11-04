@@ -19,6 +19,8 @@ export const Services = () => {
     { title: "استراتژی برند" },
   ];
 
+ 
+
   return (
     <div className="services-container">
          <div className="texts-container">
@@ -55,6 +57,7 @@ export const Services = () => {
         ))}
       </div>
       </div>
+       
     </div>
   );
 };
