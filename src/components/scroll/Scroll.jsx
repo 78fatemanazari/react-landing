@@ -10,9 +10,6 @@ export const Scroll = () => {
     "پژوهش و استراتژی" 
   ];
 
-  const images = [
-    '/'
-  ]
 
   return (
     <>
