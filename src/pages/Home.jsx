@@ -1,5 +1,6 @@
 import { About } from "../components/about/About"
 import { Clients } from "../components/clients/Clients"
+import { Footer } from "../components/footer/Footer"
 import { HeroContainer } from "../components/herosection/HeroContainer"
 import { Portfolio } from "../components/portfolio/Porfolio"
 import { Processes } from "../components/processes/Processes"
@@ -17,6 +18,7 @@ export const Home =() =>{
             <Clients />
             <Portfolio />
             <Processes />
+            <Footer />
         </>
     )
 }

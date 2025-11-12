@@ -1,14 +1,14 @@
 .parallax-wrapper{
 position: relative;
   width: 100%;
-  height: 500px; /* ارتفاع تصویر */
+  height: 600px; 
 
 }
 
 .bg-img {
    width: 100%;
   height: 100%;
-  background-attachment: fixed; /* پارالکس */
+  background-attachment: fixed; 
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
