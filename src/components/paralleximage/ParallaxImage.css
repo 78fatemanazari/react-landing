@@ -1,0 +1,71 @@
+.parallax-wrapper{
+position: relative;
+  width: 100%;
+  height: 500px; /* ارتفاع تصویر */
+
+}
+
+.bg-img {
+   width: 100%;
+  height: 100%;
+  background-attachment: fixed; /* پارالکس */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+}
+
+.overlay-bg{
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: -1;
+}
+
+.overlay-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+   width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%); 
+  z-index: 2;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-content .play-button{
+    all: unset;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 20px;
+    border: 1px solid #fff;
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+  color: #fff;
+margin-bottom: 20px;
+}
+
+
+.overlay-content p {
+    width: 60%;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.overlay-content p span{
+    color: #bff747;
+}
+

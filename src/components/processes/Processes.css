@@ -1,8 +1,7 @@
 .processes-section {
+  position: relative;
   width: 100%;
-  min-height: 300vh; 
-  background: #fff;
-  margin-top: 10%;
+  background-color: #fff;
 }
 
 .processes-container {
@@ -10,7 +9,9 @@
   align-items: flex-start; 
   justify-content: space-between;
   gap: 20px;
-  padding: 40px;
+  padding-block: 200px;
+  padding-inline: 40px;
+  z-index: 2;
 }
 
 .p-right-p {
@@ -128,3 +129,6 @@
 .p-left-p-container h3{
     margin-block: 10px;
 }
+
+
+
