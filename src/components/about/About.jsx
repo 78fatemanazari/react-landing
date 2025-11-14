@@ -33,7 +33,7 @@ export const About = () => {
        <span>در باره ی ما</span>
           <p>کمک به رشد برند شما</p>
           <p>با سئو و بازاریابی </p>
-          <p>دیجیتال مؤثر</p>
+          <p><span>دیجیتال</span> مؤثر</p>
           <img src={about1} alt="" />
         </div>
         <div className="center-section section" data-index="anime-2">
@@ -46,7 +46,7 @@ export const About = () => {
           <button>بیشتر بخوانید</button>
         </div>
         <div className="right-section section" data-index="anime-3">
-         <span>28</span>
+         <p className="num">28</p>
           <p> سال‌ تجربه تخصصی</p>
           <img src={about2} alt="" />
         </div>

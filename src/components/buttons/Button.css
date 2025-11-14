@@ -1,16 +1,46 @@
-.button{
-    width: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.button {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.button button{
-    all: unset;
-    color: #fff;
-    background-color: #96eb64;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 12px;
-    font-weight: 700;
+.button button {
+  all: unset;
+  position: relative;
+  overflow: hidden; 
+  color: #fff;
+  background-color: #96eb64;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+
+.button button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  transform: translateX(70%) scale(0);
+  border-radius: inherit;
+  transition: transform 1s ease;
+  z-index: 0;
+}
+
+
+.button button:hover::before {
+  transform: translate(-70%) scale(3);
+}
+
+
+.button button span {
+  position: relative;
+  z-index: 1;
 }
