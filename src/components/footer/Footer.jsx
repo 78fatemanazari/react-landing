@@ -1,4 +1,5 @@
 import './Footer.css'
+import { FaTelegramPlane } from "react-icons/fa";
 
 export const Footer = () =>{
     return(
@@ -26,10 +27,13 @@ export const Footer = () =>{
                 <div className="newsletter">
                     <span>خبرنامه</span>
                     <p>برای اطلاع از تخفیف‌ها و پیشنهادات، عضو شوید.</p>
-                    <input type="text" placeholder="با ما عضو شوید" />
+                    <div className='input-container'>
+                        <input type="text" placeholder="با ما عضو شوید" />
+                        <FaTelegramPlane className="telegram-icon" />
+                    </div>
                 </div>
             </div>
-            <p className='copy-right'>© 2025 وب نوا توسط قالب‌های طراحی وب‌سایت پشتیبانی می‌شود</p>
+            <p className='copy-right'>© 2025 وب نوا توسط قالب‌های <span>طراحی وب‌سایت</span> پشتیبانی می‌شود</p>
         </footer>
         </>
     )

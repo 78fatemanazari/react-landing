@@ -31,16 +31,16 @@ export const About = () => {
       <div className="about-section-container">
         <div className="left-section section" data-index="anime-1">
        <span>در باره ی ما</span>
-          <p>کمک به رشد برند شما</p>
-          <p>با سئو و بازاریابی </p>
-          <p><span>دیجیتال</span> مؤثر</p>
+          <h1>کمک به رشد برند شما با <span>سئو و بازاریابی</span>
+            دیجیتال موثر
+          </h1>
           <img src={about1} alt="" />
         </div>
         <div className="center-section section" data-index="anime-2">
           <span>از سال ۲۰۰۶</span>
           <p>
             تخصص ما، ساخت استراتژی‌های <a>بازاریابی دیجیتال</a> متناسب با
-            کسب‌وکار شماست — تا رشد و موفقیت آنلاین‌تان تضمین شود. تیم ما با
+            کسب‌وکار شماست  تا رشد و موفقیت آنلاین‌تان تضمین شود. تیم ما با
             بهره‌گیری از سئو، مسیر موفقیت شما را هموار می‌کند.
           </p>
           <button>بیشتر بخوانید</button>

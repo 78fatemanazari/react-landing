@@ -25,11 +25,11 @@ export const Services = () => {
     <div className="services-container">
          <div className="texts-container">
           <span className='title-span'>خدمات</span>
-          <p>
+          <h2>
             کیفیت و برتری در 
 
             <span className='highlight-span'>نمونه‌کارها</span>
-          </p>
+          </h2>
         </div>
       <div className="samples-container">
         <div className="descriptions-container">
@@ -39,8 +39,8 @@ export const Services = () => {
             className="desc-item" 
             onMouseEnter={() => setActiveIndex(index)}
           >
-            <span>{index + 1}</span>
-            <p>{item.title}</p>
+            <div className='desc-items-cont'><span>{index + 1}</span>
+            <p>{item.title}</p></div>
             <FaArrowLeft className='arrow-icon'  size={20} />
           </div>
         ))}

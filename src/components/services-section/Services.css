@@ -6,24 +6,31 @@
   padding: 40px;
   align-items: center;
   background-color: #000;
-  margin-top: 10%;
+  padding-block: 120px ;
   color: #fff;
   text-align: center;
 }
 
-.texts-container {
-  padding: 10px;
-}
 
 .texts-container .title-span {
-  font-size: 20px;
-  display: inline-block;
-  margin-top: 5%;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 3.2px;
+    margin-bottom: 10px;
+}
+
+.texts-container h2{
+  width: 60%;
+  height: auto;
+  font-size: 3rem;
+  font-weight: 600;
+  margin:  0 auto;
 }
 
 .texts-container .highlight-span {
   font-size: 3rem;
-  display: inline-block;
+  font-weight: 800;
+  padding-bottom: 1rem;
   color: #bff747;
 }
 
@@ -33,24 +40,37 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
+    margin-top: -1.9rem;
 }
 
 .descriptions-container{
-  width: 55%;
+  width: 45%;
   display: flex;
   flex-direction: column;
   gap: 30px;
   padding: 20px;
+  margin-top: 1.9rem;
 }
 
 .descriptions-container .desc-item{
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(227, 227, 227, 0.268);
+  padding: 35px 0;
+  cursor: pointer;
+}
+
+.descriptions-container .desc-item .desc-items-cont{
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid rgba(227, 227, 227, 0.268);
-  padding: 20px 0;
-  font-size: 1.7rem;
-  cursor: pointer;
+  gap:3rem;
+}
+
+.descriptions-container .desc-item p, span{
+  font-size: 25px;
+  font-weight: 700;
 }
 
 .descriptions-container .desc-item:hover{
@@ -58,19 +78,20 @@
 }
 
 .images-container{
-  width: 45%;
-  height: 80vh;
+  width: 55%;
+  height: 100vh;
   position: relative;
+  margin-top: 1.9rem;
+  padding-right: 2.9rem;
 }
 
 
 .images-container img{
   width: 100%;
-  border-radius: 20px;
+  border-radius: 10px;
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
   height: 100%;
   object-fit: cover;
   opacity: 0;
@@ -82,7 +103,6 @@
 }
 
 .arrow-icon {
-
   transition: all .5s ease;
 }
 

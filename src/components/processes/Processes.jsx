@@ -25,9 +25,9 @@ export const Processes = () => {
       <div className="processes-container">
         <div className="p-right-p">
           <span>فرآیند ما</span>
-          <h3>
+          <h2>
             فرآیند پشت <span>موفقیت ما</span> در بازاریابی دیجیتال
-          </h3>
+          </h2>
           <p>
             فرآیند ما طوری طراحی شده است که در هر مرحله همراه شما باشد؛ از
             مشاوره اولیه تا توسعه‌ی استراتژی شخصی‌سازی‌شده.
@@ -39,10 +39,10 @@ export const Processes = () => {
           {desc.map((item, index) => (
             <div key={index} className="p-left-p">
               <div className="p-left-p-container">
-                <span>مراحل</span>
-                <h3>{item.title}</h3>
+                <h3>مراحل</h3>
+                <h2>{item.title}</h2>
                 <p>{item.desc}</p>
-                <span className="num">{item.number}</span>
+                <h2 className="num">{item.number}</h2>
               </div>
             </div>
           ))}

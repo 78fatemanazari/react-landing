@@ -1,14 +1,16 @@
+
+
 .portfolio-container {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 40px;
-  margin-top: 15%;
   text-align: center;
   overflow: hidden;
   white-space: nowrap;
+  padding-top: 120px;
+  line-height: 1.7;
 }
 
 .portfolio-container::-webkit-scrollbar{
@@ -16,44 +18,53 @@
 }
 
 .portfolio-title span {
-  font-size: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 3.2px;
+  margin-bottom: 10px;
 }
 
-.portfolio-title p {
+.portfolio-title h2 {
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 600;
+  letter-spacing: -2px;
+  margin-bottom: .5rem;
 }
+
+.portfolio-title h2 span{
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: -2px;
+  color: #96eb64 ;
+}
+
 
 .porfolio-img-container {
 width: 100%;
   display: flex;
-  gap: 10px;
   overflow: hidden;
   justify-content: center;
   align-items: center;
-  flex-shrink: 0;
-  padding-inline: 20px;
+  
   
 }
 
 .image-card {
-  border-radius: 10px;
-  flex: 0 0 calc(100% / 3);
-  animation: move 10s;
+  animation: move 5s;
   overflow: hidden;
   position: relative;
-  
 }
 
 
 .image-card img {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 80%;
   object-fit: cover;
-  display: block;
+  display: inline-block;
   border-radius: 10px;
   position: relative;
   z-index: 1; 
+
 }
 
 @keyframes move {

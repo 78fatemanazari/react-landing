@@ -1,11 +1,12 @@
 import "./Scroll.css";
+import star from '../../assets/images/icon-03.png'
 
 export const Scroll = () => {
 
   const contents = [
-     "بهینه‌سازی کلمات کلیدی",
-     "لینک‌سازی" ,
-    "سئوی درون‌صفحه‌ای" ,
+     "بهینه‌ سازی کلمات کلیدی",
+     "لینک‌ سازی" ,
+    "سئوی درون‌ صفحه‌ای" ,
     "تولید محتوا" ,
     "پژوهش و استراتژی" 
   ];
@@ -16,12 +17,18 @@ export const Scroll = () => {
       <div className="carousel">
         <div className="group">
           {contents.map((content, index) => (
-            <div key={index} className="card">{content}</div>
+            <div key={index} className="card">
+              <p>{content}</p>
+              <img src={star} alt="" />
+            </div>
           ))}
         </div>
         <div aria-hidden="true" className="group">
             {contents.map((content, index) => (
-            <div key={`clone-${index}`} className="card">{content}</div>
+            <div key={`clone-${index}`} className="card">
+              <p>{content}</p>
+              <img src={star} alt="" />
+            </div>
           ))}
         </div>
        

@@ -1,5 +1,6 @@
 import './ParallaxImage.css'
 import bgImg from "../../assets/images/bg-01.jpg";
+import { FaPlay } from "react-icons/fa";
 
 
 
@@ -14,10 +15,12 @@ export const ParallaxImage = () => {
       <div className="overlay-content">
          <div>
       <button className="play-button">
-          ► 
+          <FaPlay /> 
         </button>
     </div>
-      <p>قدرت <span>سئو و بازاریابی دیجیتال</span> در کنار هم</p>
+      <h2>قدرت ترکیبی
+     <span>    سئو و بازاریابی دیجیتال</span>
+         </h2>
       </div>
       </div>
     </>

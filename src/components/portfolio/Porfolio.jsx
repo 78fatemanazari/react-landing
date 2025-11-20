@@ -49,17 +49,13 @@ export const Portfolio = () => {
       <div className="portfolio-container">
         <div className="portfolio-title">
           <span> پورتفولیو ما</span>
-          <p>داستان های موفقیت ما</p>
+          <h2><span>داستان</span> های موفقیت ما</h2>
         </div>
 
         <div className="porfolio-img-container">
           {visibleImages.map((item, index) => (
             <div className="image-card" key={index}>
               <img key={item.src} src={item.src} alt="" />
-              <div className="overlay">
-                <span className="overlay-title">{item.title}</span>
-                <p className="overlay-desc">{item.desc}</p>
-              </div>
             </div>
           ))}
         </div>

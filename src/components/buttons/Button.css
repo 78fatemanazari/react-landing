@@ -1,22 +1,30 @@
-.button {
+.nav-btn {
   width: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
-.button button {
+.nav-btn button {
   all: unset;
   position: relative;
   overflow: hidden; 
-  color: #fff;
+  
   background-color: #96eb64;
-  padding: 10px 20px;
+  padding: 10px 26px;
   border-radius: 5px;
-  font-size: 12px;
-  font-weight: 700;
+  
   cursor: pointer;
   transition: color 0.3s ease;
+  position: absolute;
+  left: -20px;
+}
+
+.nav-btn button  span{
+color: #fff;
+font-size: 16px;
+  font-weight: 600;
 }
 
 
