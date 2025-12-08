@@ -1,11 +1,11 @@
 import './Button.css'
 
-export const Button = () =>{
-    return(
-        <>
-            <div className="button">
-                <button>قیمت رایگان</button>
-            </div>
-        </>
-    )
-}
+export const Button = () => {
+  return (
+    <div className="nav-btn">
+      <button>
+        <span>قیمت رایگان</span>
+      </button>
+    </div>
+  );
+};

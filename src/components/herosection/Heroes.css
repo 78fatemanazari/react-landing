@@ -9,6 +9,7 @@
   width: 100%;
   height: 100vh;
   overflow: hidden;
+  padding-top: 100px;
 }
 
 
@@ -39,8 +40,6 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
-    color: #fff;
     position: relative;
 }
 
@@ -49,38 +48,42 @@
     position: absolute;
     top: 5%;
     width: 60%;
-    height: 60vh;
-    padding: 20px;
+    color: #fff;
+    padding: 30px;
 }
 
 .herocontent p{
-    font-size: 20px;
-    text-transform: uppercase;
+    display: block;
+    color: #82c976;
+    font-size: 16px;
+    font-family: 'BYekan';
     letter-spacing: 3.2px;
-    color: #96eb64;
     margin-bottom: 10px;
+    padding: 0;
 }
 
 .herocontent h1{
     font-size: 4rem;
-    margin-bottom: 10px;
+    font-family: 'BYekanBold';
+    letter-spacing: -2px;
 }
 
 .herocontent h2{
     font-size: 5rem;
-    color: #96eb64;
-    margin-bottom: 40px;
+    font-weight: 800;
+    color: #82c976;
+    letter-spacing: -2px;
+    margin-bottom: 2.9rem;
+     font-family: 'BYekanBold';
 }
 
 .herosection button{
     all: unset;
     color: #000;
     background-color: #FFF;
-    padding: 15px 20px;
+    padding: 12px 30px;
     border-radius: 5px;
     font-size: 16px;
-    font-weight: 700;
-    letter-spacing: 3.2px;
-    text-transform: uppercase;
+    font-weight: 600;
 }
 
