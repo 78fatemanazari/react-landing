@@ -39,7 +39,7 @@
 }
 
 .p-right-p h2 span {
-  color: #bff747;
+  color: #82c976;
   font-size: 3rem;
   font-weight: 600;
   letter-spacing: -2px;
@@ -57,7 +57,7 @@
 .p-right-p button {
   all: unset;
   color: #fff;
-  background-color: #96eb64;
+  background-color: #82c976;
   padding: 12px 30px;
   border-radius: 5px;
       font-size: 15px;
@@ -107,7 +107,7 @@
 .p-left-p-container h3{
       font-size: 16px;
     text-transform: uppercase;
-    color: #c6e199;
+    color: #82c976;
     margin-bottom: 10px;
     font-weight: 800;
 

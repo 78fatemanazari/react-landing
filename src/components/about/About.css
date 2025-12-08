@@ -80,14 +80,14 @@
     font-weight: 600;
     letter-spacing: -2px;
     padding-bottom: 34px;
-    
+    font-family: 'BYekanBold';
 }
 
 .left-section h1 span{
 font-size: 3rem;
     font-weight: 600;
     letter-spacing: -2px;
-    color: #96eb64;
+    color: #82c976;
 }
 
 
@@ -99,12 +99,14 @@ font-size: 3rem;
 
 .center-section{
     width: 30%;
+    height: 400px;
     padding-inline-start: 20px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-top: 10%;
     padding-right: 2.6rem;
+    position: relative;
 }
 
 .center-section span{
@@ -125,7 +127,7 @@ font-size: 3rem;
 .center-section button{
     all: unset;
     color: #fff;
-    background-color: #96eb64;
+    background-color: #82c976;
     padding: 12px 30px;
     border-radius: 5px;
     font-size: 15px;
@@ -138,16 +140,16 @@ font-size: 3rem;
     height: auto;
     display: flex;
     flex-direction: column;
-    margin-top: 12%;
+    margin-top: 17%;
     padding: 0 12px;
 }
 
 
 .right-section .num{
   color: transparent;
-  -webkit-text-stroke: 2px rgba(0, 0, 0, 0.9);
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.9);
     font-size: 80px;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .right-section p{
@@ -163,5 +165,6 @@ font-size: 3rem;
     vertical-align: top;
     border-radius:10px ;
 }
+
 
 

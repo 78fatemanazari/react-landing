@@ -42,6 +42,7 @@ export const Portfolio = () => {
     images[startIndex],
     images[(startIndex + 1) % images.length],
     images[(startIndex + 2) % images.length],
+     images[(startIndex + 3) % images.length],
   ];
 
   return (

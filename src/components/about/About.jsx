@@ -3,6 +3,7 @@ import about1 from "../../assets/images/about-01.jpg";
 import about2 from "../../assets/images/about-02.jpg";
 import { useEffect } from "react";
 
+
 export const About = () => {
 
   useEffect(() => {

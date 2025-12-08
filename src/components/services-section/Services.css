@@ -2,11 +2,11 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  gap: 50px;
+  gap: 30px;
   padding: 40px;
   align-items: center;
   background-color: #000;
-  padding-block: 120px ;
+  padding-block: 80px ;
   color: #fff;
   text-align: center;
 }
@@ -22,16 +22,16 @@
 .texts-container h2{
   width: 60%;
   height: auto;
-  font-size: 3rem;
   font-weight: 600;
-  margin:  0 auto;
+  font-size: 2.5rem; 
+  margin: 0 auto 1rem auto; 
 }
 
 .texts-container .highlight-span {
-  font-size: 3rem;
   font-weight: 800;
-  padding-bottom: 1rem;
-  color: #bff747;
+  color: #82c976;
+  font-size: 2.5rem; 
+  padding-bottom: 0.5rem;
 }
 
 .samples-container{
@@ -47,9 +47,9 @@
   width: 45%;
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  padding: 20px;
   margin-top: 1.9rem;
+  gap: 20px; 
+  padding: 10px 20px;
 }
 
 .descriptions-container .desc-item{
@@ -57,7 +57,7 @@
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid rgba(227, 227, 227, 0.268);
-  padding: 35px 0;
+  padding: 15px 0;
   cursor: pointer;
 }
 
@@ -74,15 +74,15 @@
 }
 
 .descriptions-container .desc-item:hover{
-  color: #bff747;
+  color: #82c976;
 }
 
 .images-container{
   width: 55%;
-  height: 100vh;
   position: relative;
-  margin-top: 1.9rem;
-  padding-right: 2.9rem;
+  height: 400px;
+  margin-top: 0; 
+  padding-right: 1rem;
 }
 
 
@@ -108,7 +108,7 @@
 
 
 .descriptions-container .desc-item:hover .arrow-icon{
-  color: #bff747; 
+  color: #82c976; 
   transform: rotate(45deg);
 }
 

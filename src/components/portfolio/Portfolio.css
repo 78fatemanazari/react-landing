@@ -35,7 +35,7 @@
   font-size: 3rem;
   font-weight: 600;
   letter-spacing: -2px;
-  color: #96eb64 ;
+  color: #82c976 ;
 }
 
 
@@ -45,7 +45,7 @@ width: 100%;
   overflow: hidden;
   justify-content: center;
   align-items: center;
-  
+   gap: 10px;
   
 }
 

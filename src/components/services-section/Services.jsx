@@ -15,7 +15,7 @@ export const Services = () => {
   const titles = [
     { title: "بازاریابی محتوایی" },
     { title: "بازاریابی ایمیلی" },
-    { title: "طراحی وب‌سایت" },
+    { title: "طراحی وب‌ سایت" },
     { title: "استراتژی برند" },
   ];
 

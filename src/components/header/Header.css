@@ -1,31 +1,36 @@
 
-header{
-    position: relative;
-    width: 94%;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    padding: 40px;
-    gap: 40px;
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  padding: 5px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  transition: all 0.3s ease;
+  background: transparent; /* اول شفاف */
+  border-bottom: 1px solid transparent;
 }
+
+/* وقتی اسکرول شد */
+.header.scrolled {
+  background: #fff;
+  border-bottom: 1px solid #eaeaea;
+  backdrop-filter: blur(4px);
+}
+
 
 .logo-container{
     width: 20px;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 .logo-container img{
     width: 100px;
-}
-
-.logo-container span{
-    font-size: 2rem;
-    font-weight: 600;
-    color: #fff;
 }
 
 

@@ -9,6 +9,7 @@
   width: 100%;
   height: 100vh;
   overflow: hidden;
+  padding-top: 100px;
 }
 
 
@@ -53,26 +54,27 @@
 
 .herocontent p{
     display: block;
-    color: #96eb64;
+    color: #82c976;
     font-size: 16px;
-    font-weight: 600;
+    font-family: 'BYekan';
     letter-spacing: 3.2px;
     margin-bottom: 10px;
     padding: 0;
 }
 
 .herocontent h1{
-    font-size: 5rem;
-    font-weight: 800;
+    font-size: 4rem;
+    font-family: 'BYekanBold';
     letter-spacing: -2px;
 }
 
 .herocontent h2{
     font-size: 5rem;
     font-weight: 800;
-    color: #96eb64;
+    color: #82c976;
     letter-spacing: -2px;
     margin-bottom: 2.9rem;
+     font-family: 'BYekanBold';
 }
 
 .herosection button{
